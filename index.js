@@ -102,8 +102,8 @@ class NavigationBar extends Component {
         {statusBar}
         <View style={[styles.navBar, this.props.style, ]}>
           {this.getTitleElement(this.props.title)}
-          {this.getButtonElement(this.props.leftButton, { marginLeft: 8, })}
-          {this.getButtonElement(this.props.rightButton, { marginRight: 8, })}
+          {this.getButtonElement(this.props.leftButton, { marginLeft: 20, })}
+          {this.getButtonElement(this.props.rightButton, { marginRight: 20, })}
         </View>
       </View>
     );
