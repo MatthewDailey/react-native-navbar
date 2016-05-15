@@ -4,20 +4,20 @@ import {
   StatusBar,
   Text,
   View,
-  Platform
+  Platform,
 } from 'react-native';
 
 import NavbarButton from './NavbarButton';
 import styles from './styles';
 
 const ButtonShape = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.any.isRequired,
   style: PropTypes.any,
   handler: PropTypes.func,
 };
 
 const TitleShape = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.any.isRequired,
   tintColor: PropTypes.string,
 };
 
