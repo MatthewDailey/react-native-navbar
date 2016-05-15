@@ -34,7 +34,7 @@ module.exports = {
   navBarButtonText: {
     fontSize: 17,
     letterSpacing: 0.5,
-    fontFamily: 'MyriadPro-Bold'
+    fontFamily: 'MyriadPro-Regular'
   },
   navBarTitleContainer: {
     position: 'absolute',
