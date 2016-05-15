@@ -45,11 +45,11 @@ function customizeStatusBar(data) {
 
 class NavigationBar extends Component {
   componentDidMount() {
-    customizeStatusBar(this.props.statusBar);
+    //customizeStatusBar(this.props.statusBar);
   }
 
   componentWillReceiveProps(props) {
-    customizeStatusBar(this.props.statusBar);
+    //customizeStatusBar(this.props.statusBar);
   }
 
   getButtonElement(data = {}, style) {
