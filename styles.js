@@ -30,10 +30,13 @@ module.exports = {
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 10
+    paddingTop: 10,
+    paddingLeft: 0,
+    paddingBottom: 10,
+    paddingRight: 0,
   },
   navBarButtonText: {
-    fontSize: 17,
+    fontSize: 19,
     letterSpacing: 0.5,
     fontFamily: 'MyriadPro-Regular'
   },
@@ -47,7 +50,7 @@ module.exports = {
     alignItems: 'center',
   },
   navBarTitleText: {
-    fontSize: 17,
+    fontSize: 19,
     letterSpacing: 0.5,
     color: '#333',
     fontWeight: '500',
