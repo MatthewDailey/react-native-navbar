@@ -30,6 +30,7 @@ module.exports = {
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
+    padding: 10
   },
   navBarButtonText: {
     fontSize: 17,
